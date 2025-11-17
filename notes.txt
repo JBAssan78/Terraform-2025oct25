@@ -30,3 +30,5 @@ terraform validate: catch any code issues before apply/ plan
 terraform plan: A dry run down of the planned work, shows the saved terraform code in the folder
 terraform apply: Provisions terraform code into the cloud
 terraform destroy: Destroys provision that was saved inside the cloud
+
+successful run = terraform folder in the directory
