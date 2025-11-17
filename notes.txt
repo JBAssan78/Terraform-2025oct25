@@ -20,3 +20,12 @@ enable DNS hostnames and resolution
 Always make sure that terraform is installed.
 
 The script to check this is (curl https://raw.githubusercontent.com/aaron-dm-mcdonald/Class7-notes/refs/heads/main/101825/check.sh | bash)
+
+*****************************************************************
+
+terraform I(V)PAD
+terraform init: run when starting a new terraform project in folder or adding new componets to existing code.
+terraform validate: catch any code issues before apply/ plan
+terraform plan: A dry run down of the planned work, shows the saved terraform code in the folder
+terraform apply: Provisions terraform code into the cloud
+terraform destroy: Destroys provision that was saved inside the cloud
