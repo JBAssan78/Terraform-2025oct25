@@ -16,3 +16,7 @@ tenancy = default
 1 NAT gw
 
 enable DNS hostnames and resolution
+
+Always make sure that terraform is installed.
+
+The script to check this is (curl https://raw.githubusercontent.com/aaron-dm-mcdonald/Class7-notes/refs/heads/main/101825/check.sh | bash)
