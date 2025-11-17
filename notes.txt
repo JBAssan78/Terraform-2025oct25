@@ -31,4 +31,5 @@ terraform plan: A dry run down of the planned work, shows the saved terraform co
 terraform apply: Provisions terraform code into the cloud
 terraform destroy: Destroys provision that was saved inside the cloud
 
-successful run = terraform folder in the directory
+successful run for (terraform init) = terraform folder in the directory with terraformlock.hd in directory. 
+successful run for (terraform validate) = message saying "success! Configuration is valid"
