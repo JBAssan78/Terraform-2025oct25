@@ -23,7 +23,8 @@ The script to check this is (curl https://raw.githubusercontent.com/aaron-dm-mcd
 
 *****************************************************************
 
-terraform I(V)PAD
+terraform I(V)PAD 
+
 terraform init: run when starting a new terraform project in folder or adding new componets to existing code.
 terraform validate: catch any code issues before apply/ plan
 terraform plan: A dry run down of the planned work, shows the saved terraform code in the folder
