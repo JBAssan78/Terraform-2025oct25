@@ -32,4 +32,7 @@ terraform apply: Provisions terraform code into the cloud
 terraform destroy: Destroys provision that was saved inside the cloud
 
 successful run for (terraform init) = terraform folder in the directory with terraformlock.hd in directory. 
-successful run for (terraform validate) = message saying "success! Configuration is valid"
+successful run for (terraform validate) = message saying "success! Configuration is valid".
+successful run for (terraform plan) = inside VScode a temp.file will appear in the folder "terraform.tfstatelock.info".
+successful run for (terraform apply) = terraform state file in the folder that is permanent(does not disappear).
+successful run for (terraformdestroy) = terraform terminal will read "destroy complete"/ Resource # destroyed.
