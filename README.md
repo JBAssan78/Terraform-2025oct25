@@ -11,4 +11,4 @@ To check this we can run the script below for to check.
 curl https://raw.githubusercontent.com/aaron-dm-mcdonald/Class7-notes/refs/heads/main/101825/check.sh | bash
 ```
 
-terraform initiated in an empty folder so the first file we will make is the authentication: 0-auth.tf. This file will hold our AWS credentials for terraform approval.
+Terraform initiated in an empty folder so the first file we will make is the authentication: 0-auth.tf. This file will hold our AWS credentials for terraform approval.
