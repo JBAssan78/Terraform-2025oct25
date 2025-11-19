@@ -16,3 +16,23 @@ tenancy = default
 1 NAT gw
 
 enable DNS hostnames and resolution
+
+Always make sure that terraform is installed.
+
+The script to check this is (curl https://raw.githubusercontent.com/aaron-dm-mcdonald/Class7-notes/refs/heads/main/101825/check.sh | bash)
+
+*****************************************************************
+
+terraform I(V)PAD 
+
+terraform init: run when starting a new terraform project in folder or adding new componets to existing code.
+terraform validate: catch any code issues before apply/ plan
+terraform plan: A dry run down of the planned work, shows the saved terraform code in the folder
+terraform apply: Provisions terraform code into the cloud
+terraform destroy: Destroys provision that was saved inside the cloud
+
+successful run for (terraform init) = terraform folder in the directory with terraformlock.hd in directory. 
+successful run for (terraform validate) = message saying "success! Configuration is valid".
+successful run for (terraform plan) = inside VScode a temp.file will appear in the folder "terraform.tfstatelock.info".
+successful run for (terraform apply) = terraform state file in the folder that is permanent(does not disappear).
+successful run for (terraformdestroy) = terraform terminal will read "destroy complete"/ Resource # destroyed.
