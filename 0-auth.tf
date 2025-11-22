@@ -15,10 +15,12 @@ terraform {
 # This tells Terraform how to connect to AWS
 provider "aws" {
   region  = "us-east-2"
+# Auth profile
+  profile = "default"
 
   default_tags{
     tags ={
-        Environment = "Test"
+        Environment = "ClassLab"
         Managedby = "Mecca"
     }
   }
