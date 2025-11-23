@@ -36,3 +36,26 @@ successful run for (terraform validate) = message saying "success! Configuration
 successful run for (terraform plan) = inside VScode a temp.file will appear in the folder "terraform.tfstatelock.info".
 successful run for (terraform apply) = terraform state file in the folder that is permanent(does not disappear).
 successful run for (terraformdestroy) = terraform terminal will read "destroy complete"/ Resource # destroyed.
+
+*************************************************************************************************************************************
+*************************************************************************************************************************************
+Set up for Auto Scaling Group
+
+Inside Terraform registry you can find the latest launch resource under Auto Scaling Group for your choice of code commands to run.
+
+example used
+
+resource "aws_autoscaling_group" "bar" {
+  availability_zones = ["us-east-1a"]
+  desired_capacity   = 1
+  max_size           = 1
+  min_size           = 1
+
+  launch_template {
+    id      = aws_launch_template.foobar.id
+    version = "$Latest"
+  }
+}
+--------------------------------------------------------
+adjust code to your own needs and requirements. Read through arguments refernce for proper use alone with attributes.
+
